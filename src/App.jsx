@@ -16,7 +16,7 @@ function App() {
 
 
   const nameRegex = /^[A-Z][A-Za-z]*$/;
-  const phRegex = /^[0-9]{1,10}$/;
+  const phRegex = /^[0-9]{10}$/;
   const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
   // Password Regex: Minimum 8 characters, at least 1 special character, and 1 number
   const passwordRegex = /^(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8,}$/;
